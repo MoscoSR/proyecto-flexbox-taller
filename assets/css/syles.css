@@ -1,0 +1,171 @@
+ html {
+   box-sizing: border-box;
+   font-size: 62.5%; /*1 rem = 10px*/
+ }
+
+
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+
+
+
+ body { 
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.6rem;
+   line-height: 2;
+ }
+
+
+ /*Gloabales */
+ 
+ h1, h2, h3 { 
+   font-family: 'Playfair Display', serif;
+   margin: 0 0 5rem 0;
+ }
+
+
+ h1 {
+   font-size: 5rem;
+ }
+
+
+ h2 {
+   font-size: 4rem;
+ }
+
+ h3 {
+   font-size: 3rem;
+ }
+
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+ /**Navegacion**/
+
+.logo {
+    width: 30%;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+ .nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .nav-option {
+        display: flex;
+        margin-right: 80px;
+        justify-content: space-between;
+        align-items: center;
+ }
+
+ .nav-options a {
+    padding: 30px;
+    text-decoration: none;
+ }
+
+ .button {
+    margin-right: 40px;
+ }
+
+ /*Main-Content*/
+
+
+
+.cont-main h2 {
+    margin-top: 80px;
+}
+
+ .cont-main p, h2 {
+    padding: 20px;
+ }
+
+ .cont-main p {
+    margin-top: 100px;
+ }
+
+ .cont-main {
+    display: grid;
+    grid-template-columns:repeat(3,1fr)                                                                                                                                                                                          ;
+ }
+
+
+ .galery-images {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+ }
+
+
+ .galery-images img {                                                                                                                               
+    height: 200px;
+    border: 1px solid black;
+ }
+
+ .title {
+    margin-top: 80px;
+    margin-left: 30px;
+ }
+
+ .main-footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    font-size: 30px;
+ }
+ /*-------------------------------*/
+
+ /*Menu*/
+
+ /*Nv-hero*/
+
+.hero {
+   background-image: url(../img/hero__1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 55rem;
+}
+
+.container-option {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   padding: 2rem;
+   margin-top: 3rem;
+   border: 1px solid #eee;
+   margin-left: 20rem;
+   width: 90rem;
+}
+
+.container-option a {
+   padding: 2rem;
+}
+
+.option-platos {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-left: 16rem;
+}
+
+.cont-plate_1 {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.cont-plate_1 img {
+    margin-left: 3rem;
+    border-radius: 4rem;
+    margin-top: 2rem;
+}
+
